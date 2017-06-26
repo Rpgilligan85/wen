@@ -1,0 +1,18 @@
+{
+"devDependencies": {
+  "gulp": "latest",
+  "gulp-util": "latest",
+  "gulp-sass": "latest",
+  "gulp-uglify": "latest",
+  "gulp-concat": "latest",
+  "gulp-connect": "latest",
+  "gulp-clean-css": "latest",
+  "gulp-compass": "latest",
+  "gulp-livereload": "latest",
+  "gulp-minify": "latest",
+  "gulp-rename": "latest"
+  },
+    "scripts": {
+      "gulp": "gulp"
+ }
+}
