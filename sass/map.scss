@@ -1,0 +1,69 @@
+@import 'reset';
+@import 'all';
+
+#map {
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+ img {
+    width: 100%;
+}
+}
+
+#mapContent {
+    width: 50%;
+    height: 100%;
+    float: right;
+    overflow: auto;
+    background: #fff;
+}
+
+.defaultHeight {
+    height: 500px;
+}
+
+.fullHeight {
+    position:fixed !important;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+
+.fullHeight2 {
+    position:absolute !important;
+    bottom:0;
+    left: 0;
+    z-index: 100;
+}
+
+#mapContainer {
+    position: relative;
+    float: left;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+#monument, #lincoln, #whiteHouse, #wen {
+    width: 100%;
+    padding: 100px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    height: 100vh;
+
+    img {
+        width: 100%;
+        padding: 100px;
+    }
+    p {
+        font-family: $ff;
+        font-weight: 400;
+    }
+
+    h1 {
+        font-family: $ff;
+        font-weight: 900;
+    }
+}

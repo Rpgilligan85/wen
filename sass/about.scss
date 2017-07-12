@@ -1,0 +1,33 @@
+@import 'reset';
+@import 'all';
+
+.card {
+    font-family: $ff;
+    color: #333;
+    margin-top: 30px;
+
+    p {
+        font-weight: 400;
+    }
+
+    h2 {
+        font-weight: 700;
+    }
+}
+
+.bgImages {
+    width: 100%;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+}
+
+#image1 {
+    background-image: url("https://i.ytimg.com/vi/W-PBFMECvTE/maxresdefault.jpg");
+}
+#image2 {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/85/b4/cf/85b4cf112cf40c191ca5676b726fc410.jpg");
+}
+#image3 {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/2e/18/ab/2e18ab3f71b73c6719b04c81625bb922.jpg");
+}
